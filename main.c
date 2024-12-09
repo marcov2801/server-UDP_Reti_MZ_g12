@@ -1,4 +1,4 @@
-/* Project -> Project options -> Parameters -> Linker: -lws2_32 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -55,7 +55,7 @@ int main() {
     }
 
    
-    // 1. Il server è avviato sulla porta 53477 e resta sempre in ascolto
+    // 1. Il server Ã¨ avviato sulla porta 53477 e resta sempre in ascolto
     printf("Server UDP in ascolto sulla porta %d...\n", PORT);
 	while(true) { 		    
 	    // 4. Il server riceve la stringa e la visualizza sullo std output;
